@@ -4,7 +4,6 @@
 
 int main(){
 
-	int i = 0;
 	int n;
 	double res;
 
@@ -14,12 +13,12 @@ int main(){
 	int a[n - 1];
 
 	printf("Please input some numbers to find the arvage\n");
-	for(i = 0; i < n; i++){
+	for(int i = 0; i < n; i++){
 		scanf("%d\n", &a[i]);
 	}
 
 
-	for(; i < n; i++){
+	for(int i = 0; i < n; i++){
 		printf("%d\n", a[i]);
 	}
 
