@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <assert.h>
-#include "2dArray.h"
 
 int main(){
-	int a[100][150];
-	int res;
 
-	res = dArray(*a);
+	int n;
 
-	printf("%d\n",res);
 
-	return 0;
+	printf("Input the desired length of your array:\n");
+	scanf("%d", &n);
+
+	int a[n];
+
+	for(int i = 0; i < n; i++){
+		scanf("%ld\n", &a[i]);
+	}
+
 }
