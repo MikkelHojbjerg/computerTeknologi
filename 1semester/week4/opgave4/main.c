@@ -11,7 +11,7 @@ int main(){
 	printf("\nInput the desired length of your array:\n");
 	scanf("%d", &n);
 
-	int a[n];
+	int a[n - 1];
 
 	printf("Please input some numbers to find the arvage\n");
 	for(i = 0; i < n; i++){
