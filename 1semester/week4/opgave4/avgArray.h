@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-int avgArray(int *a, int n){
+void avgArray(int *a, int n){
 
 	double res = a[0];
 
@@ -16,5 +16,4 @@ int avgArray(int *a, int n){
 
 	printf("%f is the average number of the arrayy\n", res);
 
-	return res;
 }
