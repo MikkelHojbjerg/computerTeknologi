@@ -10,20 +10,15 @@ int main(){
 	printf("\nInput the desired length of your array:\n");
 	scanf("%d", &n);
 
-	int a[n - 1];
+	int a[n];
 
-	printf("Please input some numbers to find the arvage\n");
+	printf("Please input some numbers to find the average\n");
 	for(int i = 0; i < n; i++){
-		scanf("%d\n", &a[i]);
+		scanf("%d", &a[i]);
 	}
 
 
-	for(int i = 0; i < n; i++){
-		printf("%d\n", a[i]);
-	}
-
-
-	//avgArray(a, n);
+	avgArray(a, n);
 
 	return 0;
 
