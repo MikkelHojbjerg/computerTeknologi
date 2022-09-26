@@ -1,25 +1,14 @@
 #include <stdio.h>
 #include <assert.h>
-#include "avgArray.h"
+#include "2dArray.h"
 
 int main(){
+	int a[100][150];
+	int res;
 
-	int n;
-	double res;
+	res = dArray(*a);
 
-	printf("\nInput the desired length of your array:\n");
-	scanf("%d", &n);
-
-	int a[n];
-
-	printf("Please input some numbers to find the average\n");
-	for(int i = 0; i < n; i++){
-		scanf("%d", &a[i]);
-	}
-
-
-	avgArray(a, n);
+	printf("%d\n",res);
 
 	return 0;
-
 }
