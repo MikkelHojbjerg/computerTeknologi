@@ -1,6 +1,0 @@
-#include <stdio.h>
-#include <assert.h>
-
-int 2dArray(int *a){
-	int i, j;
-
