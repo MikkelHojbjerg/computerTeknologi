@@ -17,4 +17,8 @@ void dArray(int a[100][150], int counter[20]){
 		}
 	}
 
+	/* Precondition, a skal indeholde tal mellem 1 og 20.
+	Hvis counter er lig 0 er der ikke nogle^tal mellem 1 og 20. */
+	assert(!(counter == 0));
+
 }
