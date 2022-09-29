@@ -19,7 +19,7 @@ int main(){
 		scanf("%d", &a[i]);
 	}
 
-
+	//Kalder funktionen avgArray
 	avgArray(a, n);
 
 	return 0;

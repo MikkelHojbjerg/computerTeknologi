@@ -14,6 +14,7 @@ void avgArray(int *a, int n){
 	//Når loopet er kørt, så divider programmet alle værdierne med længden som brugeren tidligere har angivet
 	res /= n;
 
+	//Printer resultatet
 	printf("%f is the average number of the arrayy\n", res);
 
 }
